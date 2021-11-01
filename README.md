@@ -11,11 +11,24 @@ technical and non technical abilities that provided. The data can downloaded fro
 
 # How to run project
 
+## Starter
+1. Download project 
+2. Install dependencies with `pipenv install` 
+3. Build docker image in directory by `docker build -t zoomcamp-project .`
 
+## To run notebook.ipynb
+1. Activate virtual environment in directory by `pipenv shell` and open jupyter notebook
+2. Open notebook.ipynb
+3. Run first section 1(Table of contents ) to section 5(EDA) . 
+4. For section 6.1 and 6.2 , you can run 6.2 first than 6.1 , but in each subsection of 6.1 and 6.2 , must run sequentially
+5. For section 6.2 to 9.4 , run first section between 6.2 and 6.3.No need to run sequentially in section 6.2 to 9.4 , but need to run sequentially in each section.
 
-1. Download this repository
-2. Install dependencies with `pipenv install` on directory 
-3. Activate the virtual environment by `pipenv shell'
-4. If you want to see notebook.ipynb , run `jupyter notebook` on virtual environment , and open the notebook.ipynb
-5. Build docker image that included in repository by run `docker build -t zoomcamp-project .`
-6. After building docker image , run it with `docker run -it --rm -p 9696:9696 zoomcamp-project`
+## To run train.py
+1. Activate virtual environment in directory by `pipenv shell`
+2. run `python train.py` , it will save model_chosen.bin
+
+## Deploy locally using docker
+1. run docker image using `docker run -it --rm zoomcamp-project`
+2. run `python predict-test.py` on another command prompt 
+3. Player data that specified in predict-test.py can modified if you want to try another player 
+
