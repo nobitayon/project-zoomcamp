@@ -4,11 +4,11 @@ FIFA19 is video game series about football produced by EA SPORTS .
 This game provide estimation of player's attribute,that correspond 
 to technical abilities  like dribbling,shooting etc or non technical
 thing like international reputation , work rate.Based on some weighting
-on attribute ,that depend on position , overall rating of player calculated 
+on attribute ,that depend on player's position , overall rating of player calculated 
 .On this project , i want to predict overall rating of player based on some
 technical and non technical abilities that provided. The data can downloaded from 
 [kaggle](https://www.kaggle.com/karangadiya/fifa19). Information about attribute can be seen on 
-[attribute explanation](https://fifauteam.com/fifa-19-attributes-guide/#22)
+[attribute explanation](https://fifauteam.com/fifa-19-attributes-guide/#22) 
 
 # How to run project
 
