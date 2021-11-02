@@ -31,3 +31,7 @@ technical and non technical abilities that provided. The data can downloaded fro
 2. run `python predict-test.py` on another command prompt 
 3. Player data that specified in predict-test.py can modified if you want to try another player 
 
+I deploy this project on pythonanywhere
+[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1635820806/video_to_markdown/images/google-drive--1C0cyzeLFY09PNtOt9RTxw2DTkOS-4ys2-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1C0cyzeLFY09PNtOt9RTxw2DTkOS-4ys2/view?usp=sharing "")
+
+
