@@ -50,4 +50,4 @@ I deploy this project on pythonanywhere
 
 
 
-Thank you 
+Thank you for reviewing my project
