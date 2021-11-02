@@ -11,6 +11,17 @@ https://www.kaggle.com/karangadiya/fifa19. Information about attribute can be se
 https://fifauteam.com/fifa-19-attributes-guide/#22 . Position of football player can be seen on
 https://sofifa.com/calculator
 
+File in repository :
+* train.py : to train the best model i choose , after run it save model_chosen.bin
+* predict.py  : to deploy web service locally 
+* notebook.ipynb : Model selection process
+* predict-test.py : to try web service that deployed locally
+* deploy-test.py  : to try web service that deployed on pythonanywhere
+* prep.py : Module that needed on predict.py 
+* Dockerfile : to running the service on docker
+* Summary-model.xlsx : summary of model selection process
+* Data.csv : Data i used to train and test on this project
+
 # How to run project
 
 ## Starter
