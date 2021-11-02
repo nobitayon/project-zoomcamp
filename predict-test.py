@@ -1,7 +1,7 @@
 import requests
 
 url='http://localhost:9696/predict'
-# url="http://yonm10.pythonanywhere.com/predict"
+
 
 player={
  'age': 31,
