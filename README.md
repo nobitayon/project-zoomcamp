@@ -6,9 +6,10 @@ to technical abilities  like dribbling,shooting etc or non technical
 thing like international reputation , work rate.Based on some weighting
 on attribute ,that depend on player's position , overall rating of player calculated 
 .On this project , i want to predict overall rating of player based on some
-technical and non technical abilities that provided. The data can downloaded from 
-[kaggle](https://www.kaggle.com/karangadiya/fifa19). Information about attribute can be seen on 
-[attribute explanation](https://fifauteam.com/fifa-19-attributes-guide/#22) 
+technical and non technical abilities that provided. The data can be downloaded from 
+https://www.kaggle.com/karangadiya/fifa19. Information about attribute can be seen on 
+https://fifauteam.com/fifa-19-attributes-guide/#22 . Position of football player can be seen on
+https://sofifa.com/calculator
 
 # How to run project
 
