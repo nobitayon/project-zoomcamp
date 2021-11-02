@@ -1,13 +1,14 @@
 # Description
 
-FIFA is video game series about football produced by EA SPORTS .
+FIFA19 is video game series about football produced by EA SPORTS .
 This game provide estimation of player's attribute,that correspond 
 to technical abilities  like dribbling,shooting etc or non technical
 thing like international reputation , work rate.Based on some weighting
 on attribute ,that depend on position , overall rating of player calculated 
 .On this project , i want to predict overall rating of player based on some
 technical and non technical abilities that provided. The data can downloaded from 
-[kaggle](https://www.kaggle.com/karangadiya/fifa19).
+[kaggle](https://www.kaggle.com/karangadiya/fifa19). Information about attribute can be seen on 
+[attribute explanation](https://fifauteam.com/fifa-19-attributes-guide/#22)
 
 # How to run project
 
@@ -31,6 +32,7 @@ technical and non technical abilities that provided. The data can downloaded fro
 2. run `python predict-test.py` on another command prompt 
 3. Player data that specified in predict-test.py can modified if you want to try another player 
 
+# Deploy the service on cloud
 I deploy this project on pythonanywhere
 [![](https://res.cloudinary.com/marcomontalbano/image/upload/v1635820806/video_to_markdown/images/google-drive--1C0cyzeLFY09PNtOt9RTxw2DTkOS-4ys2-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1C0cyzeLFY09PNtOt9RTxw2DTkOS-4ys2/view?usp=sharing "")
 
