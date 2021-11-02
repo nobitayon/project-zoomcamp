@@ -12,7 +12,7 @@ https://fifauteam.com/fifa-19-attributes-guide/#22 . Position of football player
 https://sofifa.com/calculator
 
 File in repository :
-* train.py : to train the best model i choose , after run it save model_chosen.bin
+* train.py : to train the best model i choose , after run it save model on model_chosen.bin
 * predict.py  : to deploy web service locally 
 * notebook.ipynb : Model selection process
 * predict-test.py : to try web service that deployed locally
