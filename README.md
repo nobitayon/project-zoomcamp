@@ -14,7 +14,6 @@ technical and non technical abilities that provided. The data can downloaded fro
 ## Starter
 1. Download project 
 2. Install dependencies with `pipenv install` 
-3. Build docker image in directory by `docker build -t zoomcamp-project .`
 
 ## To run notebook.ipynb
 1. Activate virtual environment in directory by `pipenv shell` and open jupyter notebook
@@ -25,10 +24,10 @@ technical and non technical abilities that provided. The data can downloaded fro
 
 ## To run train.py
 1. Activate virtual environment in directory by `pipenv shell`
-2. run `python train.py` , it will save model_chosen.bin
+2. run `python train.py` , it will save model_chosen.bin in directory
 
 ## Deploy locally using docker
-1. run docker image using `docker run -it --rm zoomcamp-project`
+1. run docker image using `docker run -it --rm -p 9696:9696 zoomcamp-project`
 2. run `python predict-test.py` on another command prompt 
 3. Player data that specified in predict-test.py can modified if you want to try another player 
 
